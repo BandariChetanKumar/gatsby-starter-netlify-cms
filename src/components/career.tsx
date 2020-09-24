@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Layout from "./layout";
 import styled from "@emotion/styled";
 import Title from "./common/title";
+import { Link } from "gatsby";
 
 const valuepath = require("../images/value.svg") as string;
 const tickpath = require("../images/tick.svg") as string;
@@ -557,7 +558,7 @@ export default class career extends Component {
             <Group>
               <ImageLogo src={imagepath}></ImageLogo>
             </Group>
-            <BlogTitle>De-Risk your Products with UX Design Experts </BlogTitle>
+            <BlogTitle><Link to={"/blog"}>De-Risk your Products with UX Design Experts </Link></BlogTitle>
             <Time>19 Aug 2020</Time>
             <BlogName>Jaya Sagar</BlogName>
             <Department>Technical&nbsp;Department</Department>
