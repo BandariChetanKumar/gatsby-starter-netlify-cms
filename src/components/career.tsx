@@ -567,7 +567,7 @@ export default class career extends Component {
             <Group>
               <ImageLogo src={imagepath}></ImageLogo>
             </Group>
-            <BlogTitle>De-Risk your Products with UX Design Experts </BlogTitle>
+            <BlogTitle><Link to={"/blog"}>De-Risk your Products with UX Design Experts </Link></BlogTitle>
             <Time>19 Aug 2020</Time>
             <BlogName>Jaya Sagar</BlogName>
             <Department>Technical&nbsp;Department</Department>
